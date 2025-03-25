@@ -41,7 +41,7 @@ console.log("O produto dos valores é:", produto);
 ```
 Qual das seguintes alternativas melhor descreve o que o código faz?
 
-A) O código avalia a expressão booleana, imprime `true`, calcula o produto dos números na lista e imprime o resultado no console.
+A) O código avalia a expressão booleana, imprime `true`, calcula o produto dos números na lista e imprime o resultado no console.(Correta)
 
 B) O código avalia a expressão booleana, imprime `false`, calcula o produto dos números na lista e imprime o resultado no console.
 
@@ -49,6 +49,7 @@ C) O código avalia a expressão booleana, imprime `true` e, em seguida, verific
 
 D) O código avalia a expressão booleana, imprime `false` e ordena os valores em ordem crescente.
 
+Justificativa: Primeiro que o resultado da true, pois, todos as comparações são verdadeiras, mas entendendo a lógica bastaria que a primeira preposição **e** a segunda fossem verdadeiras **ou** que a terceira fosse verdadeira. Por esse ponto de vista, as  formas de retornar falso seria a 3 ser falso e a 1 ou 2 
 
 ______
 
