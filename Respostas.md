@@ -49,7 +49,9 @@ C) O código avalia a expressão booleana, imprime `true` e, em seguida, verific
 
 D) O código avalia a expressão booleana, imprime `false` e ordena os valores em ordem crescente.
 
-Justificativa: Primeiro que o resultado da true, pois, todos as comparações são verdadeiras, mas entendendo a lógica bastaria que a primeira preposição **e** a segunda fossem verdadeiras **ou** que a terceira fosse verdadeira. Por esse ponto de vista, as  formas de retornar falso seria a 3 ser falso e a 1 ou 2 
+Justificativa: Primeiro que o resultado da true, pois, todos as comparações são verdadeiras, mas entendendo a lógica bastaria que a primeira preposição **e** a segunda fossem verdadeiras **ou** que a terceira fosse verdadeira. Por esse ponto de vista, as  formas de retornar falso seria a 3 ser falso e a 1 ou 2 serem falsas, e também, as três comparações serem falsas.
+
+Posteriormente é criado uma lista e é atribuido o valor 1 para a variável "produto", depois no "for" o índice representado pela letra j e ele é atribuido a 0, depois é usado o ".lenght" para pegar o comprimento total da lista , depois é criado a lógica de como a lista será perccorrida "j++", que é da forma j= j +1. A parte " produto *= valores[j]" significa que todos elementos da lista serão mutiplicados ao produto.
 
 ______
 
