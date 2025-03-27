@@ -106,13 +106,20 @@ function analisarCredito2() {
 ```
 Se ambas as funções forem executadas com os valores fornecidos, qual será a saída exibida no console?
 
-A) Ambas as funções exibirão: 'Seu crédito foi aprovado. Saldo disponível: 400.'
+A) Ambas as funções exibirão: 'Seu crédito foi aprovado. Saldo disponível: 400.'(Correta)
 
 B) analisarCredito1() exibirá: 'Seu crédito foi negado. Saldo disponível: -600.', enquanto analisarCredito2() exibirá: 'Seu crédito foi negado. Saldo disponível: -200.'
 
 C) analisarCredito1() exibirá: 'Seu crédito foi negado. Saldo disponível: -200.', enquanto analisarCredito2() exibirá: 'Seu crédito foi aprovado. Saldo disponível: 100.'
 
 D) Ambas as funções exibirão: 'Seu crédito foi aprovado Saldo disponível: 500.'
+
+Justifivativa: As duas seguem uma lógica parecida, a única diferença é que uma roda com do e a outra sem, por isso o resultado é o mesmo.
+
+Na Primeira: A parte que está dentro do "do" é a parte que soma a lista ao "totalCompras", depois vem o "while" que atualiza o "saldoDisponivel" e checa o status com um if dentro do "if".
+
+Na Segunda: Já não existe mais "do" e a parte que cuida da operação de somar a lista é o "while", 
+
 ______
 
 **3)** Considere o seguinte trecho de código em JavaScript:
