@@ -236,13 +236,15 @@ ______
 
 Escolha a opção que responde corretamente:
 
-A) Simular física avançada, incluindo corpos rígidos, colisões complexas e interação entre objetos com gravidade e forças.
+A) Simular física avançada, incluindo corpos rígidos, colisões complexas e interação entre objetos com gravidade e forças.(Correta)
 
 B) Gerenciar eventos de entrada do usuário, como cliques e toques na tela, permitindo movimentação de personagens.
 
 C) Renderizar gráficos otimizados para jogos 2D e garantir uma taxa de quadros estável.
 
 D) Criar animações automáticas para sprites e objetos interativos sem necessidade de programação de movimentação.
+
+Justificativa: O Matter.js Physics é uma das formas de configurar a física do jogo, ele é mais voltado para colisões, corpos rígidos, forças , bem voltado para a parte da dinâmica. Outro exemplo de física do Phaser é o "acarde", que é bem menos complexa, usado para fazer jogos mais simples.
 
 ______
 
