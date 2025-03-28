@@ -223,11 +223,13 @@ Escolha a opção que melhor descreve seu propósito:
 
 A) O método update() é responsável por carregar os assets do jogo antes da cena ser exibida.
 
-B) O método update() é chamado continuamente a cada quadro (frame) do jogo, sendo usado para atualizar a lógica, movimentação e interações dos objetos na cena.
+B) O método update() é chamado continuamente a cada quadro (frame) do jogo, sendo usado para atualizar a lógica, movimentação e interações dos objetos na cena.(Correto)
 
 C) O método update() renderiza todos os sprites na tela e garante que a física do jogo seja processada corretamente.
 
 D) O método update() é chamado apenas uma vez após a criação da cena, sendo utilizado para configurar variáveis iniciais do jogo.
+
+Justificativa: O update() é uma função/método do Phaser que serve para atualizar frame por frame da ilustração gráfica, então para realizar isso ele roda em loop.
 ______
 
 **6)** Qual é o principal objetivo do módulo Matter.js Physics em Phaser.js?
