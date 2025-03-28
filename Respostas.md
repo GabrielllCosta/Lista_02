@@ -118,7 +118,7 @@ Justifivativa: As duas seguem uma lógica parecida, a única diferença é que u
 
 Na Primeira: A parte que está dentro do "do" é a parte que soma a lista ao "totalCompras", depois vem o "while" que atualiza o "saldoDisponivel" e checa o status com um if dentro do "if".
 
-Na Segunda: Já não existe mais "do" e a parte que cuida da operação de somar a lista é o "while", 
+Na Segunda: Já não existe mais "do" e a parte que cuida da operação de somar a lista é o "while", agora o saldoDisponivel é atualizado fora da função e o "if" continua checando os status.
 
 ______
 
