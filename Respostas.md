@@ -139,11 +139,13 @@ Qual das seguintes alternativas melhor descreve o comportamento do código?
 
 A) O código verifica se a idade indica um adulto ou um idoso e exibe a mensagem correspondente.
 
-B) O código verifica se a idade pertence à faixa adulta. Se for, exibe "Você é um adulto!". Caso contrário, verifica se é menor de idade e exibe "Você é menor de idade!". Se nenhuma das condições anteriores for verdadeira, exibe "Você está na melhor idade!".
+B) O código verifica se a idade pertence à faixa adulta. Se for, exibe "Você é um adulto!". Caso contrário, verifica se é menor de idade e exibe "Você é menor de idade!". Se nenhuma das condições anteriores for verdadeira, exibe "Você está na melhor idade!".(Correta)
 
 C) O código verifica se a idade está entre 18 e 60 anos e, se for, imprime "Você é um adulto!". Se não estiver nesse intervalo, imprime "Você está na melhor idade!".
 
 D) O código verifica se a idade é menor de 18, entre 18 e 60 ou acima de 60, imprimindo uma mensagem específica para cada caso.
+
+Justificativa: Na lógica de "if" é feito uma leitura de cima para baixo, passando para a próxima codinção somente se a atual  não for verdadeira, e assim o computador vai passando pelos os "else if", e caso nenhuma condição seja cumprida, então o caso passará para o "else". No caso desse código, como a idade recebeu o valor 21, o computador executarar o que está no "if".
 ______
 
 **4)** Qual será o resultado impresso no console após a execução do seguinte código?
