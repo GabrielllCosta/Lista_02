@@ -205,6 +205,7 @@ Dispositivo 3 ligado. Energia restante: 400
 Dispositivo 4 não pode ser ligado. Energia insuficiente.
 
 D)(Correta)==========================================
+
 Dispositivo 1 ligado. Energia restante: 900
 
 Dispositivo 2 ligado. Energia restante: 300
@@ -215,7 +216,7 @@ Dispositivo 4 não pode ser ligado. Energia insuficiente.
 
 Dispositivo 5 não pode ser ligado. Energia insuficiente.
 
-Justificativa: O "for" está cofigurado para passar pela lista toda, o "if" vai passando pelos dispositivos até que seja necessário entrar na bateriaExtra, aí cai no caso do "else if"
+Justificativa: O "for" está cofigurado para passar pela lista toda, o "if" vai passando pelos dispositivos até que seja necessário entrar na bateriaExtra, aí cai no caso do "else if" até a bateriaExtra não é mais suficiente e entra no "else" e nenhum dispositivo pode ser mais usado.
 ______
 
 **5)** Qual é a principal função do método update() em um jogo desenvolvido com Phaser.js?
